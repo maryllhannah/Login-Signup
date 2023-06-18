@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Bilbo&family=Playfair+Display:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bgheader {
+  background: linear-gradient(
+    270deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.brand {
+  font-family: fantasy;
+  font-size: 50px;
+  color: gray;
+  margin: 10px;
+}
+
+.loginsignup-nav {
+  text-decoration: none;
+  color: black;
+  margin: 10px;
+  font-size: 25px;
+}
+
+.aa {
+  padding-left: 40px;
+  font-size: 35px;
+}
+
+.bgsection2 {
+  background-color: black;
+}
+
+.sect1 {
+  color: whitesmoke;
+  font-family: "FontAwesome";
+  font-size: -webkit-xxx-large;
+}
+
+.link {
+  color: black;
+  font-weight: 600;
+}
+
+.wrapper {
+  width: 360px;
+  padding: 20px;
+  background-color: whitesmoke;
+}
+
+.white {
+  width: 500px;
+  border: 2px solid #ccc;
+  padding: 30px;
+  background: #fff;
+  border-radius: 15px;
+  height: 580px;
+}
+
+.white-s {
+  width: 500px;
+  border: 2px solid #ccc;
+  padding: 30px;
+  background: #fff;
+  border-radius: 15px;
+  height: 600px;
+}
+
+
+.dashboardbg {
+/* background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% ); */
+background-image: linear-gradient( 103.3deg,  rgba(252,225,208,1) 30%, rgba(255,173,214,1) 55.7%, rgba(162,186,245,1) 81.8% );
+background-repeat: no-repeat;
+height: 700px;
+
+}
+
+.fa-solid, .fas {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  font-size: 35px;
+}
+
+.fa-solid, .fas {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.dasboardhello {
+    height: 200px;
+    width: 200px;
+}
+
+.head {
+  font-family: fantasy;
+font-size: 55px;
+  font-variant: petite-caps;
+  text-align: center;
+  text-decoration: underline;
+  letter-spacing: 5px;
+  margin-top: -20px;
+ 
+}
+
+
+
+.sub {
+  font-family: monospace;
+}
+
+.label {
+  color: darkslategrey;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+.inputsize {
+  font-size: 1px;
+}
+
+
+.button {
+  background-color: black;
+  color: white;
+  font-variant: petite-caps;
+  border: none;
+}
+
+.last {
+  font-family: monospace;
+}
+
+@media only screen and (min-width: 1200px) {
+  /* / styles for browsers larger than 1200px; / */
+  .form {
+    background-image: url(../images/5.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+  }
+
+}
+@media only screen and (min-width: 960px) {
+  /* / styles for browsers larger than 960px; / */
+  .form {
+    background-image: url(../images/5.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+  }
+}
+@media only screen and (max-device-width: 768px) {
+  /* / styles for mobile browsers smaller than 768px; / */
+
+  .form {
+
+    background-image: url(../images/671822c2f63dd5f65d8fd15c9710420b.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+
+  }
+
+  .white {
+    width: max-content;
+    border: 2px solid #ccc;
+    padding: 30px;
+    background: #fff;
+    border-radius: 15px;
+    height: 600px;
+  }
+  
+  
+  .white-s {
+    width: max-content;
+    border: 2px solid #ccc;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    height: 650px;
+  }
+  
+  .head {
+    font-family: fantasy;
+    font-size: 50px;
+    font-variant: petite-caps;
+    text-align: center;
+    text-decoration: underline;
+    letter-spacing: 5px;
+    color: palevioletred;
+    margin-top: -30px;
+   
+  }
+
+  .sub {
+    font-family: monospace;
+    font-size: 21px;
+  }
+
+  .label {
+    color: darkslategrey;
+    font-family: sans-serif;
+    font-size: 20px;
+  }
+
+  .form-control {
+    font-size: 20px;
+  }
+
+  .button {
+    background-color: black;
+    color: pink;
+    font-variant: petite-caps;
+    border: none;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+
+  .last {
+    font-family: sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: black;
+  }
+
+}
+@media only screen and (max-device-width: 480px) {
+  /* / styles for mobile browsers smaller than 480px; / */
+
+  .form {
+
+    background-image: url(../images/989b4d4a9d8a93124d304a730e3b5739.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+
+  }
+
+  .white {
+    width: max-content;
+    border: 2px solid #ccc;
+    padding: 30px;
+    background: #fff;
+    border-radius: 15px;
+    height: 800px;
+  }
+
+  .white-s {
+    width: max-content;
+    border: 2px solid #ccc;
+    padding: 30px;
+    background: #fff;
+    border-radius: 15px;
+    height: 1000px;
+
+  }
+
+  .sub {
+    font-family: monospace;
+    padding-top: 10px;
+    font-size: 22px;
+  }
+
+  .label {
+    color: darkslategrey;
+    font-family: sans-serif;
+    font-size: 35px;
+  }
+
+  .form-control {
+    font-size: 50px;
+  }
+
+  .button {
+    background-color: pink;
+    color: black;
+    font-variant: petite-caps;
+    border: none;
+    font-size: 44px;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+
+  .last {
+    font-family: sans-serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: black;
+  }
+
+}
+@media only screen and (max-device-width: 360px) {
+  /* / styles for mobile browsers smaller than 360px; / */
+  .form {
+
+    background-image: url(../images/other-knigi-ochki-vaza-okno-podokonnik-tsveti-124430.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+
+  }
+  .white {
+    width: 860px;
+    height: 900px;
+    border: 2px solid #ccc;
+    padding: 30px;
+    background: #fff;
+    border-radius: 15px;
+  
+  }
+
+  .white-s {
+    width: 860px;
+    height: 1100px;
+    border: 2px solid #ccc;
+    padding: 30px;
+    background: #fff;
+    border-radius: 15px;
+  }
+  .dashboardbg {
+    /* background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% ); */
+    background-image: linear-gradient( 103.3deg,  rgba(252,225,208,1) 30%, rgba(255,173,214,1) 55.7%, rgba(162,186,245,1) 81.8% );
+    background-repeat: no-repeat;
+    height: 900px;
+    
+    }
+
+    
+    .fa-solid, .fas {
+      font-family: "Font Awesome 6 Free";
+      font-weight: 900;
+      padding-top: 10px;
+      font-size: 60px;
+    }
+    .head {
+      font-family: fantasy;
+      font-size: 80px;
+      font-variant: petite-caps;
+      text-align: center;
+      text-decoration: underline;
+      letter-spacing: 5px;
+      color: black;
+     
+    }
+    .sub {
+      font-family: monospace;
+      font-size: 30px;
+    }
+
+    .label {
+      color: darkslategrey;
+      font-family: sans-serif;
+      font-size: 35px;
+    }
+
+    .form-control {
+      font-size: 50px;
+    }
+
+    .button {
+      background-color: antiquewhite;
+      color: black;
+      font-variant: petite-caps;
+      border: none;
+      font-size: 35px;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+
+    .last {
+      font-family: monospace;
+      font-size: 32px;
+    }
+    
+}
